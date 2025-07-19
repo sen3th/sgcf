@@ -1,0 +1,31 @@
+body {
+    background-color: #018989;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+h1{
+    font-size: 300%;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: normal;
+}
+
+h1:hover{
+    font-family:'Times New Roman', Times, serif;
+}
+
+div{
+    animation-name: headerAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes headerAnimation {
+    from {color: green;}
+    to {color: rgb(7, 92, 152);}
+    from {font-size: 300%;}
+    to {font-size: 400%;}
+}
